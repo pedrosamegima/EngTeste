@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Biblioteca Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>📚 Biblioteca Online</h1>
+      <p class="subtitle">Login do Leitor</p>
+
+      <form id="formLogin">
+        <div class="input-group">
+          <label>Email</label>
+          <input type="email" id="loginEmail">
+        </div>
+
+        <div class="input-group">
+          <label>Senha</label>
+          <input type="password" id="loginSenha">
+        </div>
+
+        <button type="button" onclick="login()">Entrar</button>
+        <p id="mensagemLogin"></p>
+      </form>
+
+      <p class="link-baixo">
+        Ainda não tem conta? <a href="index.html">Cadastre-se</a>
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
